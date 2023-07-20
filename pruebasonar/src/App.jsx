@@ -1,15 +1,23 @@
-import UserList from "./Components/UserList";
-import { BrowserRouter as Router } from "react-router-dom";
 
-import { Provider } from "react-redux";
-import store from "./Store";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+// Components
+import TaskList from "./components/TaskList";
+import TaskForm from "./components/TaskForm";
 function App() {
   return (
-    <Router>
-      <Provider store={store}>
-        <UserList />
-      </Provider>
-    </Router>
+    <div>
+      <div>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<TaskList />} />
+            <Route path="/create-task" element={<TaskForm />} />
+            <Route path="/edit-task/:id" element={<TaskForm />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </div>
+
   );
 }
 
