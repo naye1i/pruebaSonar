@@ -1,3 +1,4 @@
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // Components
@@ -16,6 +17,7 @@ function App() {
         </BrowserRouter>
       </div>
     </div>
+
   );
 }
 
