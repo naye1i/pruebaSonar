@@ -1,0 +1,55 @@
+{
+  "stuff": [
+    {
+      "id": "beab4f40-14d9-496b-87b9-f5323576bsd8",
+      "title": "pelota2",
+      "image": null,
+      "ranking": "2"
+    },
+    {
+      "id": "beab4f40-14d9-496b-87b9-f5323576bf68",
+      "title": "reloj",
+      "image": "assets/reloj.jpg",
+      "ranking": "3"
+    },
+    {
+      "id": "96a88835-659d-4e78-9463-03fabfc66cbf",
+      "title": "camara",
+      "image": "assets/camara.jpg",
+      "ranking": "1"
+    },
+    {
+      "id": "808700ea-d176-4187-8a67-c49c0ea76f9f",
+      "title": "pera",
+      "image": "assets/reloj.jpg",
+      "ranking": "3"
+    }
+  ],
+  "users": [
+    {
+      "id": "3",
+      "name": "juan",
+      "email": "prueba@qq.com",
+      "password": "1245"
+    },
+    {
+      "id": "4",
+      "name": "jose",
+      "email": "prueba2@qq.com",
+      "password": "1234"
+    },
+    {
+      "id": "5",
+      "name": "nayeli",
+      "password": "1234"
+    },
+    {
+      "id": "a2afd2ea-e5b1-4b28-ab47-a0a721a9bc41",
+      "name": "luis",
+      "email": "asa@sdad.com",
+      "password": "123456789"
+    }
+   
+  ]
+}
+
